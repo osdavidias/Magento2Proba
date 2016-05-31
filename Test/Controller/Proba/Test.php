@@ -16,7 +16,7 @@ class Test extends \Magento\Framework\App\Action\Action
  
     public function execute()
     {        
-        var_dump(__METHOD__);
+       
         $page_object = $this->pageFactory->create();;
         return $page_object;
     }    
